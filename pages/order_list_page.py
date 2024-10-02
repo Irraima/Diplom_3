@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 from locators.order_list_locators import OrderPageLocators as OPL
 
 
-class OrderFeedPage(BasePage):
+class OrderListPage(BasePage):
 
     @allure.step('Открытие страницы "Лента заказов"')
     def open_page(self):

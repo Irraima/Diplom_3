@@ -31,7 +31,5 @@ class TestRestorePassword:
         rpp.input_password(test_data)
         rpp.click_element_if_visible(RL.SHOW_HIDE_BUTTON)
         assert (rpp.stroke_password_field_check()
-                is True and rpp.active_password_field_check() is True), ('Статус поля ввода "Пароль'
-                                                                       'не '
-                                                                       'соответствует '
-                                                                       'ожидаемому')
+                is True and rpp.active_password_field_check() is True), ('Статус поля ввода "Пароль" '
+                                                                         'не соответствует ожидаемому')
